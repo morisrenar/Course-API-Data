@@ -1,10 +1,14 @@
 package io.javabrains.springbootstarter.topic;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
 /**
  * Created by bmshamsnahid on 7/21/17.
  */
+@Entity
 public class Topic {
-	
+	@Id
 	private String id;
 	private String name;
 	private String description;
